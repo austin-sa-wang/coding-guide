@@ -12,6 +12,11 @@
 
 ### Keep the code simple
 
+Unnecessary complexity is a form of technical debt.
+  - more code means more poossible bugs
+  - more things to maintain
+  - more codes to read for the maintainer
+
 @TODO fill in details
 
 ### Code is meant to be read by another human
