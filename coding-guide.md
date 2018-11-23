@@ -27,12 +27,15 @@ Unnecessary complexity is a form of technical debt.
 
 @TODO fill in details
 
-### On parameter default
+### Careful with parameter default
 
-Avoid default unless designing a public interface. Adding a default needs to be an explicit decision, not an after thought.
-In general, explicit over convenience, but defaults may make sense in some cases. Refer to
+In general, avoid having default for function parameters.
+Having a parameter default needs to be an explicit decision, that provides actual value to the consumer of the function.
+Defaults often lead to unexpected behavior, and is hard to debug, leaving the maintainer wondering "Why is this function working when it should not?" "From where am I getting this magical value?"
 
-[default-values-are-they-good-or-evil](https://softwareengineering.stackexchange.com/questions/63908/default-values-are-they-good-or-evil)
+In general, explicitness over convenience.
+
+Defaults can make sense in some cases. See more on [default-values-are-they-good-or-evil](https://softwareengineering.stackexchange.com/questions/63908/default-values-are-they-good-or-evil)
 
 ### On Testing
 
