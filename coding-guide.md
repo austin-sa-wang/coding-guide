@@ -39,3 +39,12 @@ In general, explicit over convenience, but defaults may make sense in some cases
 Always think about the value of the test. Be practical.
 
 @TODO fill in details
+
+### Avoid Double Negative
+
+Avoid using double negative
+If you don't have the function for the oppsite, create one.
+
+`!isNil()` -> `exists()`
+
+[Remove Double Negative](https://www.refactoring.com/catalog/removeDoubleNegative.html)
