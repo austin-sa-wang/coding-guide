@@ -29,6 +29,10 @@ Unnecessary complexity is a form of technical debt.
 
 *explicitness* over *convenience*
 
+### Code to make the intention clear
+
+@TODO fill in details (encorporate quote at the bottom?)
+
 ### Careful with parameter default
 
 In general, avoid having default for function parameters.
@@ -53,3 +57,12 @@ If you don't have the function for the oppsite, create one.
 `!isNil()` -> `exists()`
 
 [Remove Double Negative](https://www.refactoring.com/catalog/removeDoubleNegative.html)
+
+### Quotes
+
+> Bad code tries to do
+too much, it has muddled intent and ambiguity of purpose. Clean code is focused. Each
+function, each class, each module exposes a single-minded attitude that remains entirely
+undistracted, and unpolluted, by the surrounding details.
+>
+> -- <cite>Robert C. Martin. *Clean Code: A Handbook of Agile Software Craftsmanship*</cite>
