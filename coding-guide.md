@@ -80,3 +80,8 @@ code someone left for you—code left by someone
 who cares deeply about the craft.
 >
 > Michael Feathers, author of *Working Effectively with Legacy Code*
+
+> Duplication and expressiveness take me a very long way into what I consider clean
+code, and improving dirty code with just these two things in mind can make a huge difference
+>
+> -- Ron Jeffries, author of *Extreme Programming Installed and Extreme Programming Adventures in C#*
