@@ -10,6 +10,16 @@
 
 @TODO fill in details
 
+### Write it simple, dumb, plain, explicit the first time, then refactor
+
+1. writing functions names very explicitly on what it's doing. if a function is doing four different things, write it out `doThisAndSendThatNotifcationAndCleanUpDataAndSave()`. Once it is done, then you can refactor. At this point, it is now very apparent what the function is doing. You can easily spot the responsibilities that should be split.
+
+Iterative process. Follow simple guideline in each step. Write code -> refactor -> write code -> refactor. Then development becomes easy.
+
+Focus on one thing at a time. Making it work vs Making it better.
+
+We do it better when we focus on one thing at a time.
+
 ### Keep the code simple
 
 Unnecessary complexity is a form of technical debt.
