@@ -68,6 +68,16 @@ If you don't have the function for the oppsite, create one.
 
 [Remove Double Negative](https://www.refactoring.com/catalog/removeDoubleNegative.html)
 
+### If it's hard to do something, it usually means something is wrong
+
+@TODO fill in details
+
+examples include
+
+naming
+
+unit testing
+
 ### Quotes
 
 > Bad code tries to do
