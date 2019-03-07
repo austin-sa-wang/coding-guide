@@ -105,3 +105,14 @@ who cares deeply about the craft.
 code, and improving dirty code with just these two things in mind can make a huge difference
 >
 > -- Ron Jeffries, author of *Extreme Programming Installed and Extreme Programming Adventures in C#*
+
+## More Specific Practices
+
+### Avoid flagArgument
+
+Avoid creating a function with a "flag" parameter that is used to switch between different code paths. Consider other options
+  - rethink the responsibility of the function. Is it doing too much?
+  - create explicit functions for each path
+  - replace flag with a configuration object parameter. e.g. favor `config: {strict: true}` over `strict: true`
+
+[Avoid flagArgument - Martin Fowler](https://www.martinfowler.com/bliki/FlagArgument.html)
