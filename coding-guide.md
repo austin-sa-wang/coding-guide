@@ -78,7 +78,7 @@ naming
 
 unit testing
 
-### Quotes
+## Quotes
 
 > Bad code tries to do
 too much, it has muddled intent and ambiguity of purpose. Clean code is focused. Each
