@@ -19,3 +19,11 @@ Place to keep notes that is still just idea.
 Code can be hard to read when the composition of functions and classes is poorly done. Inline everything as a tool to provide new perspective
 
 https://sourcemaking.com/refactoring/inline-method
+
+## Code Smell
+
+### Feature Envy
+
+A common smell, when one class uses too many member in another class.
+
+https://sourcemaking.com/refactoring/smells/feature-envy
