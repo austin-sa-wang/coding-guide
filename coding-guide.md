@@ -70,6 +70,10 @@ If you don't have the function for the oppsite, create one.
 
 ### If it's hard to do something, it usually means something is wrong
 
+Usually your scope it too big.
+If a function is hard to name, probably the function's scope is too big, that it's doing too many things
+If a test is hard to implement, probably the scope it's trying to test is too big, too many things to test, too many depenencies.
+
 @TODO fill in details
 
 examples include
